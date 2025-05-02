@@ -5,6 +5,8 @@ from flask_bootstrap import Bootstrap5
 from wdcuration import lookup_id
 from inat2wiki.parse_observation import get_commons_url, request_observation_data
 
+__version__ = "0.1.0"
+
 # Load .env into os.environ
 load_dotenv()
 
