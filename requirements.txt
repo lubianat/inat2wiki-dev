@@ -9,3 +9,5 @@ mwparserfromhell>=0.5.0
 tqdm
 gunicorn
 pytest
+pytest-cov
+python-dotenv
