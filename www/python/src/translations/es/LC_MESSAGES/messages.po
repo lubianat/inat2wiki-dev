@@ -1,0 +1,149 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-05-03 22:11-0300\n"
+"PO-Revision-Date: 2025-05-03 22:30-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: www/python/src/app.py:63
+msgid "Welcome to iNat2Wiki!"
+msgstr "¡Bienvenido a iNat2Wiki!"
+
+#: www/python/src/app.py:69
+msgid "About iNat2Wiki"
+msgstr "Acerca de iNat2Wiki"
+
+#: www/python/src/app.py:79 www/python/src/templates/index.html:14
+#: www/python/src/templates/layout.html:45
+msgid "Parse observation"
+msgstr "Analizar observación"
+
+#: www/python/src/app.py:92 www/python/src/templates/parse.html:49
+msgid "License not supported"
+msgstr "Licencia no compatible"
+
+#: www/python/src/app.py:93
+msgid "Observation Details"
+msgstr "Detalles de la observación"
+
+#: www/python/src/app.py:101
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: www/python/src/app.py:107
+msgid "An internal error occurred"
+msgstr "Ocurrió un error interno"
+
+#: www/python/src/templates/index.html:4
+msgid "iNat2Wiki"
+msgstr "iNat2Wiki"
+
+#: www/python/src/templates/index.html:9
+msgid "iNat2Wiki is an interface between iNaturalist and Wikimedia projects."
+msgstr "iNat2Wiki es una interfaz entre iNaturalist y los proyectos de Wikimedia."
+
+#: www/python/src/templates/index.html:12
+msgid ""
+"This is a slow rewrite of the original tool, with a single goal of adding"
+" pictures of particular observations\n"
+"    to commons via"
+msgstr ""
+"Esta es una reescritura lenta de la herramienta original, con el único "
+"objetivo de añadir imágenes de observaciones particulares al Commons a través de"
+
+#: www/python/src/templates/layout.html:7
+msgid "A tool to connect iNaturalist and Wikimedia projects."
+msgstr "Una herramienta para conectar iNaturalist con los proyectos de Wikimedia."
+
+#: www/python/src/templates/layout.html:35
+msgid "Toggle navigation"
+msgstr "Alternar navegación"
+
+#: www/python/src/templates/layout.html:42
+msgid "Home"
+msgstr "Inicio"
+
+#: www/python/src/templates/layout.html:71
+msgid "Code and feedback in the"
+msgstr "Código y comentarios en el"
+
+#: www/python/src/templates/layout.html:72
+msgid "GitHub repository"
+msgstr "repositorio en GitHub"
+
+#: www/python/src/templates/layout.html:74
+msgid "Privacy & Cookies"
+msgstr "Privacidad y cookies"
+
+#: www/python/src/templates/layout.html:76
+msgid "We set one first‑party cookie called"
+msgstr "Establecemos una cookie propia llamada"
+
+#: www/python/src/templates/layout.html:76
+msgid ""
+"to remember your language choice. It expires when you close your browser "
+"and is never shared. No tracking, no analytics."
+msgstr ""
+"para recordar tu elección de idioma. Expira al cerrar el navegador y nunca se comparte. Sin rastreo, sin análisis."
+
+#: www/python/src/templates/layout.html:77
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: www/python/src/templates/parse.html:4
+msgid "User observations"
+msgstr "Observaciones del usuario"
+
+#: www/python/src/templates/parse.html:10
+msgid "Enter the observation id"
+msgstr "Introduce el ID de la observación"
+
+#: www/python/src/templates/parse.html:13
+msgid "Submit"
+msgstr "Enviar"
+
+#: www/python/src/templates/parse.html:15
+msgid "See an example"
+msgstr "Ver un ejemplo"
+
+#: www/python/src/templates/parse.html:20
+msgid "Observation"
+msgstr "Observación"
+
+#: www/python/src/templates/parse.html:22
+msgid "Wikidata page"
+msgstr "Página de Wikidata"
+
+#: www/python/src/templates/parse.html:25
+msgid "Observation on iNaturalist"
+msgstr "Observación en iNaturalist"
+
+#: www/python/src/templates/parse.html:33
+msgid "Image"
+msgstr "Imagen"
+
+#: www/python/src/templates/parse.html:34
+#: www/python/src/templates/parse.html:42
+msgid "License"
+msgstr "Licencia"
+
+#: www/python/src/templates/parse.html:35
+msgid "Link to Commons"
+msgstr "Enlace a Commons"
+
+#: www/python/src/templates/parse.html:46
+msgid "Upload to Commons"
+msgstr "Subir a Commons"
