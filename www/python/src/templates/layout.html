@@ -12,6 +12,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.css">
 
+  <!-- Add this before your custom CSS -->
+  <style>
+    @import url("https://cdn.jsdelivr.net/npm/@libertinus-fonts/libertinus@7.040/webfont/css/libertinus.min.css");
+
+    body {
+      font-family: "Libertinus Serif", serif !important;
+    }
+
+    /* For buttons and form elements that should stay sans-serif */
+    .btn,
+    input,
+    select,
+    textarea,
+    .navbar {
+      font-family: "Libertinus Sans", sans-serif !important;
+    }
+
+    /* Make headings use sans variant */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Libertinus Sans", sans-serif;
+      font-weight: 600;
+    }
+  </style>
+
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo.svg') }}">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -25,7 +56,7 @@
   <title>iNat2Wiki</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100" style="background-color: var(--lightest-green);">
   <nav class="navbar navbar-expand-md navbar-light bg-light border">
     <a class="navbar-brand" href="/">
       <img src="{{ url_for('static', filename='logo.png') }}" width="55" alt="iNat2Wiki Logo">
@@ -63,8 +94,12 @@
     {% endif %}
   </header>
 
-  <main class="container-fluid mt-2">
-    {% block main %}{% endblock %}
+  <main class="container-fluid mt-4 mb-5 flex-grow-1">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        {% block main %}{% endblock %}
+      </div>
+    </div>
   </main>
 
   <footer class="small text-center text-muted mt-4 mb-3">

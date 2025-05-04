@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-03 22:11-0300\n"
+"POT-Creation-Date: 2025-05-03 22:41-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 msgid "About iNat2Wiki"
 msgstr ""
 
-#: www/python/src/app.py:79 www/python/src/templates/index.html:14
-#: www/python/src/templates/layout.html:45
+#: www/python/src/app.py:79 www/python/src/templates/index.html:13
+#: www/python/src/templates/layout.html:76
 msgid "Parse observation"
 msgstr ""
 
@@ -50,52 +50,52 @@ msgstr ""
 msgid "iNat2Wiki"
 msgstr ""
 
-#: www/python/src/templates/index.html:9
+#: www/python/src/templates/index.html:8
 msgid "iNat2Wiki is an interface between iNaturalist and Wikimedia projects."
 msgstr ""
 
-#: www/python/src/templates/index.html:12
+#: www/python/src/templates/index.html:11
 msgid ""
 "This is a slow rewrite of the original tool, with a single goal of adding"
 " pictures of particular observations\n"
-"    to commons via"
+"  to commons via"
 msgstr ""
 
 #: www/python/src/templates/layout.html:7
 msgid "A tool to connect iNaturalist and Wikimedia projects."
 msgstr ""
 
-#: www/python/src/templates/layout.html:35
+#: www/python/src/templates/layout.html:66
 msgid "Toggle navigation"
 msgstr ""
 
-#: www/python/src/templates/layout.html:42
+#: www/python/src/templates/layout.html:73
 msgid "Home"
 msgstr ""
 
-#: www/python/src/templates/layout.html:71
+#: www/python/src/templates/layout.html:106
 msgid "Code and feedback in the"
 msgstr ""
 
-#: www/python/src/templates/layout.html:72
+#: www/python/src/templates/layout.html:107
 msgid "GitHub repository"
 msgstr ""
 
-#: www/python/src/templates/layout.html:74
+#: www/python/src/templates/layout.html:109
 msgid "Privacy & Cookies"
 msgstr ""
 
-#: www/python/src/templates/layout.html:76
+#: www/python/src/templates/layout.html:111
 msgid "We set one first‑party cookie called"
 msgstr ""
 
-#: www/python/src/templates/layout.html:76
+#: www/python/src/templates/layout.html:111
 msgid ""
 "to remember your language choice. It expires when you close your browser "
 "and is never shared. No tracking, no analytics."
 msgstr ""
 
-#: www/python/src/templates/layout.html:77
+#: www/python/src/templates/layout.html:112
 msgid "Privacy"
 msgstr ""
 

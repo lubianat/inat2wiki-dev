@@ -1,0 +1,64 @@
+:root {
+    --lightest-green: #f0faf1;
+    /* New lightest shade */
+    --primary-green: #28a745;
+    --secondary-green: #218838;
+    --light-green: #d4edda;
+}
+
+
+/* Set overall page background */
+body {
+    background-color: var(--lightest-green);
+}
+
+
+.navbar-light .navbar-brand {
+    color: var(--primary-green);
+}
+
+.btn-primary {
+    background-color: var(--primary-green);
+    border-color: var(--secondary-green);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-green);
+    border-color: var(--primary-green);
+}
+
+.alert-primary {
+    background-color: var(--light-green);
+    border-color: var(--primary-green);
+    color: var(--secondary-green);
+}
+
+/* Custom spacing */
+.card-body.p-4 {
+    padding: 2rem !important;
+}
+
+.rounded {
+    border-radius: 12px !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+
+/* Table improvements */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: var(--primary-green);
+    color: white;
+    border-bottom: none;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(40, 167, 69, 0.05);
+}

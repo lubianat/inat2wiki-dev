@@ -46,15 +46,12 @@ babel = Babel(app, locale_selector=get_locale)
 @app.before_request
 def before_request():
     g.locale = get_locale()
-    print(">> Selected locale:", g.locale)
 
 
 @app.route("/set-lang/<lang>")
 def set_lang(lang):
-    print(">> Setting session['lang'] =", lang)
     if lang in SUPPORTED_LANGUAGES:
         session["lang"] = lang
-    print(">> Current session:", dict(session))
     return redirect(request.referrer or url_for("index"))
 
 
