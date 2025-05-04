@@ -2,8 +2,8 @@
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/lubianat/inat2wiki-new.git
-   cd inat2wiki-new
+   git clone https://github.com/lubianat/inat2wiki-dev.git
+   cd inat2wiki-dev
    ```
 
 2. **Create & activate venv**  
