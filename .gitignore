@@ -70,3 +70,6 @@ pip-delete-this-directory.txt
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+
+flask_session
