@@ -76,3 +76,36 @@ def test_parse_obs_unsupported(monkeypatch, client):
     # Taxon name and observation id should appear
     assert "Observation 99" in html
     assert "OtherTaxon" in html
+
+
+def test_parse_obs_missing_geojson(monkeypatch, client):
+    """
+    Observation 279 666 022 has 'geojson': null and currently crashes.
+    The view should render a page and fall back gracefully.
+    """
+    dummy_obs = {
+        "id": 279666022,
+        "taxon": {"min_species_taxon_id": 999, "name": "GeojsonlessTaxon"},
+        "geojson": None,  # <-- culprit
+        "photos": [
+            {
+                "url": "http://example.com/img_square.jpg",
+                "license_code": "cc-by",
+                "id": 1234,
+            }
+        ],
+        "user": {
+            "id": 5678,
+            "login": "TestUser",
+            "name": "Test User",
+        },
+        "place_guess": "Test Place",
+        "observed_on": "2023-01-01",
+    }
+
+    # stub network / helpers
+    monkeypatch.setattr(myapp, "request_observation_data", lambda oid: dummy_obs)
+    monkeypatch.setattr(myapp, "lookup_id", lambda tid, prop, default="": "")
+
+    resp = client.get("/parse/279666022")
+    assert resp.status_code == 200
