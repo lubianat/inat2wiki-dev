@@ -10,6 +10,10 @@
 
 Hosted at: [https://inat2wiki-dev.toolforge.org](https://inat2wiki-dev.toolforge.org)
 
+The original version of the tool can be found at: [https://inat2wiki.toolforge.org](https://inat2wiki.toolforge.org).
+
+The core logic is managed at the Python module [inat2wiki](https://github.com/lubianat/inat2wiki-module).
+
 ---
 
 ## 🧑‍💻 Contributing
