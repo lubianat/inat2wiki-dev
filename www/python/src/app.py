@@ -72,6 +72,8 @@ def about():
 def parse_obs_base():
     if request.method == "POST":
         obs_id = request.form.get("obs_id")
+        if "www.inaturalist.org/observations/" in obs_id:
+            obs_id = obs_id.split("/observations/")[-1]
         return redirect(url_for("parse_obs", observation_id=obs_id))
     title = _("Parse observation")
     return render_template("parse.html", title=title)
