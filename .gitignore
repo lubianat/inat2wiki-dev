@@ -73,3 +73,5 @@ Desktop.ini
 
 
 flask_session
+*node_modules*
+svelte-inat2commons/node_modules/*

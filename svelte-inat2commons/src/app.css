@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/@libertinus-fonts/libertinus@7.040/webfont/css/libertinus.min.css");
+
+:root {
+  --lightest-green: #f0faf1;
+  --primary-green: #28a745;
+  --secondary-green: #218838;
+  --light-green: #d4edda;
+  --border-green: rgba(40, 167, 69, 0.2);
+}
+
+body {
+  font-family: "Libertinus Serif", serif !important;
+  background-color: var(--lightest-green);
+}
+
+.btn,
+input,
+select,
+textarea,
+.navbar {
+  font-family: "Libertinus Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--primary-green);
+}
+
+.btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--secondary-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-green);
+  border-color: var(--primary-green);
+}
+
+.alert-primary {
+  background-color: var(--light-green);
+  border-color: var(--primary-green);
+  color: var(--secondary-green);
+}
+
+.card-body.p-4 {
+  padding: 2rem !important;
+}
+
+.rounded {
+  border-radius: 12px !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: var(--primary-green);
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(40, 167, 69, 0.05);
+}
+
+.privacy-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.privacy-popover {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  width: min(280px, 80vw);
+  background: #ffffff;
+  border: 1px solid var(--border-green);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  padding: 12px;
+  font-size: 0.85rem;
+  color: #2a3a2e;
+  z-index: 10;
+}
+
+.privacy-popover h6 {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+}
+
+.privacy-popover p {
+  margin: 0;
+}
